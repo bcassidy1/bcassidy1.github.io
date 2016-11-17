@@ -6,11 +6,11 @@ function check(){
 	var question4 = document.quiz.question4.value;
 	var correct = 0;
 
-	if (question1 == "katy perry") {
+	if (question1 == "Katy Perry") {
 		correct++;
 	}
 
-	if (question2 == "drew bledsoe") {
+	if (question2 == "Drew Bledsoe") {
 		correct++;
 	}
 
@@ -18,7 +18,7 @@ function check(){
 		correct++;
 	}
 
-	if (question4 == "patriots") {
+	if (question4 == "Patriots") {
 		correct++;
 	}
 
@@ -26,7 +26,7 @@ function check(){
 	var pictures = ["img/win.gif", "img/almost.gif", "img/getcha head in the game.gif", "img/lost.gif"];
 	var range;
 
-	if (correct < 1) {
+	if (correct < 2) {
 		range = 3;
 	}
 
